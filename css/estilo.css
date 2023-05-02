@@ -2,7 +2,7 @@
 @import url("./cabecalho.css");
 @import url("./conteudo.css");
 @import url("./rodape.css");
-@import url("./breakpoint_630px.css");
+@import url("./break-point-630px.css");
 
 *{
   margin:0;
@@ -19,7 +19,34 @@ html{
     font-size: 5rem;
 }
 
-/* vw = View Width
-vh = View height 
-    
-*/
+
+
+/* TABELA */
+
+table{
+  margin: 5% auto;
+  border-collapse: collapse;
+}
+
+td,th{
+  border:1px solid #000000;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: #dddddd;
+}
+tr:nth-child(odd){
+  background-color: #cccccc;
+}
+
+tr:hover{
+  background-color: #1a1616bd;
+  color: #fff;
+}
+
+td[colspan], td[rowspan]{
+  text-align: center;
+}
+
+/* TABELA */
