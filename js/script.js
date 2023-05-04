@@ -19,3 +19,16 @@ h2Element.addEventListener("click", ()=>{
     h2Element.setAttribute("style",`color:rgb(${r},${g},${b});`);
     h2Element.textContent = "NOVO TITULO";
 });
+
+// converter HTMLElements em Array
+const aElements = document.getElementsByTagName("a");
+console.log(aElements);
+
+const aElementsArray = [...aElements];
+console.log(aElementsArray);
+
+// imprimindo atributos dos elementos recuperados
+aElementsArray.forEach((a) => {
+    console.log(a.innerHTML);
+})
+
