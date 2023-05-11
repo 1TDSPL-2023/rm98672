@@ -17,7 +17,7 @@ h2Element.addEventListener("click", ()=>{
     this.textContent = "NOVO TÍTULO";
     //h2Element.setAttribute("style","color:rgb("+r+","+g+","+b+");");
     h2Element.setAttribute("style",`color:rgb(${r},${g},${b});`);
-    h2Element.textContent = "NOVO TITULO";
+    h2Element.textContent = "NOVO TÍTULO";
 });
 
 // converter HTMLElements em Array
